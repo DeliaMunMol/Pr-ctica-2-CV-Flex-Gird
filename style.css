@@ -1,0 +1,184 @@
+.maincontainer {
+    display: flex;
+    flex-flow: row;
+    width: 37.1875rem;
+    height: 52.625rem;
+}
+
+.column1{
+    display: flex;
+    flex-flow: column;
+    width: 40%;
+    height: 52.625rem;
+    background-color: #15AF94;
+}
+
+.column2 {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    width: 60%;
+    height: 52.625rem;
+}
+
+.textoIzq {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    text-align: left;
+    margin: 15px; 
+}
+
+.textoBarra {
+    color: white;
+    font-size: 23px;
+    margin-left: 10px;
+}
+
+.textoCaja {
+    display: flex;
+    flex-flow: column;
+    margin-left: 30px;
+}
+
+#Caja1 {
+    align-self: center;
+    top: 5%;
+    margin-top: .9375rem;
+    width: 12.5rem;
+    height: 12.5rem;
+}
+
+#Foto {
+    display: flex;
+    background-image: url(./foto/foto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    border-radius:150px;
+    border: solid; color: #ffffffd0;
+
+}
+
+#Pesta1 {
+    width: 6.25rem;
+    height: auto;
+    background-color: #099F84;
+    border-top-right-radius: 9.375rem;
+}
+
+#Title1 {
+    color: white;
+    margin-left: 10px;
+}
+
+#Sobremi {
+    display: flex;
+    width: auto;
+    height: 280px;
+    background-color: #099F84;
+    color: white;  
+}
+
+#Fondopesta2 {
+    width: auto;
+    background-color: #099F84;
+}
+
+#Title2 {
+    color: white;
+    margin-left: 40px;
+    margin-top: 2px;
+}
+
+#Pesta2 {
+    width: 150px;
+    height: 25px;
+    background-color: #107966;
+    border-top-right-radius: 9.375rem;
+}
+
+#Hobbies{
+    display: flex;
+    width: auto;
+    height: 300px;
+    background-color: #107966;
+    color: white;
+}
+
+#Fondopesta3 {
+    width: auto;
+    background-color: #107966;
+}
+
+#Title3 {
+    color: white;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+#Pesta3 {
+    width: 190px;
+    height: 25px;
+    background-color: #0A3E34;
+    border-top-right-radius: 9.375rem;
+}
+
+#Contacto {
+    display: flex;
+    width: auto;
+    height: 25rem;
+    background-color: #0A3E34; 
+    color: white;
+}
+
+#Nombre {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+    font-size: 30px;
+    left: 300px;
+    top: 35px;
+    color: #0A3E34;
+}
+
+#BarraLateral1 {
+    width: auto;
+    height: 30px;
+    background: linear-gradient(-45deg, #ffffff00, #15AF94);
+    right: 0%;
+}
+
+#BarraLateral2 { 
+    width: auto;
+    height: 30px;
+    background: linear-gradient(-45deg, #ffffff00, #099F84);
+    right: 0%;
+}
+
+#BarraLateral3 {
+    display: flex;
+    width: 357px;
+    height: 30px;
+    background: linear-gradient(-45deg, #ffffff00, #0A3E34);
+    top: 661px;
+}
+
+#Competencias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#Cabecera {
+    font-size: 19px;
+    color: #0A3E34;
+}
+
+#Icons {
+    display: flex;
+    flex-direction: row;
+
+}
